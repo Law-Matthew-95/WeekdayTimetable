@@ -1,0 +1,121 @@
+//Note, real timetable slightly different
+
+
+var Weekday = window.prompt("Enter day of the week to find timetable: ");
+
+var Monday = [
+"9:00 : Morning meeting \n",
+"10:00 : Answer Emails \n",
+"11:00 : Design cool new programs \n",
+"12:00 : Lunch! \n",
+"13:00 : Back from lunch :( \n",
+"14:00 : Implement designs for new programs \n",
+"15:00 : Test implementations for new programs \n",
+"16:00 : Watch clock until 5pm \n",
+"17:00 : Head home \n",
+]
+
+var Tuesday = [
+"9:00 : Morning meeting \n",
+"10:00 : Answer Emails \n",
+"11:00 : Find out why Monday's tests didn't work \n",
+"12:00 : Lunch! \n",
+"13:00 : Back from lunch :( \n",
+"14:00 : Forget my train of thought \n",
+"15:00 : Start over \n",
+"16:00 : Watch clock until 5pm \n",
+"17:00 : Head home \n",
+]
+
+var Wednesday = [
+"9:00 : Morning meeting \n",
+"10:00 : Answer Emails \n",
+"11:00 : Create new tests \n",
+"12:00 : Lunch! \n",
+"13:00 : Back from lunch :( \n",
+"14:00 : Forget to capitalise a word causing errors \n",
+"15:00 : Wish for Friday \n",
+"16:00 : Watch clock until 5pm \n",
+"17:00 : Head home \n",
+]
+
+var Thursday = [
+"9:00 : Morning meeting \n",
+"10:00 : Answer Emails \n",
+"11:00 : Find much better solution to problem \n",
+"12:00 : Lunch! \n",
+"13:00 : Back from lunch :( \n",
+"14:00 : Implement new solution \n",
+"15:00 : Check results \n",
+"16:00 : Watch clock until 5pm \n",
+"17:00 : Head home \n",
+]
+
+var Friday = [
+"9:00 : Morning meeting \n",
+"10:00 : Answer Emails \n",
+"11:00 : Move to live system \n",
+"12:00 : Lunch! \n",
+"13:00 : Back from lunch :( \n",
+"14:00 : Wait on edge of seat for system to crash \n",
+"15:00 : Assume it all worked well \n",
+"16:00 : Quiz \n",
+"17:00 : Head home \n",
+]
+
+var Saturday = [
+"9:00 : Sleep",
+"10:00 : Plan not to waste weekend \n",
+"11:00 : waste weekend \n",
+"12:00 : waste weekend \n",
+"13:00 : waste weekend \n",
+"14:00 : waste weekend \n",
+"15:00 : waste weekend \n",
+"16:00 : waste weekend \n",
+"17:00 : waste weekend \n",
+]
+
+var Sunday = [
+"9:00 : waste weekend \n",
+"10:00 : waste weekend \n",
+"11:00 : waste weekend \n",
+"12:00 : waste weekend \n",
+"13:00 : waste weekend \n",
+"14:00 : waste weekend \n",
+"15:00 : waste weekend \n",
+"16:00 : waste weekend \n",
+"17:00 : Regret wasting weekend \n",
+]
+
+switch (Weekday){
+	case "Monday":
+		console.log(Monday);
+		break;
+
+	case "Tuesday":
+		console.log(Tuesday);
+		break;
+
+	case "Wednesday":
+		console.log(Wednesday);
+		break;
+
+	case "Thursday":
+		console.log(Thursday);
+		break;
+
+	case "Friday":
+		console.log(Friday);
+		break;
+
+	case "Saturday":
+		console.log(Saturday);
+		break;
+
+	case "Sunday":
+		console.log(Sunday);
+		break;
+
+	default:
+	alert("Please enter valid day");
+}
